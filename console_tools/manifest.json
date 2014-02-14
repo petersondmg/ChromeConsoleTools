@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Console Tools",
+  "description": "Console tools.",
+  "version": "1.0",
+
+  "permissions": [
+      "tabs", "http://*/*", "https://*/*"
+  ],
+
+  "page_action": {
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["tools.js"]
+    }
+  ]
+}
