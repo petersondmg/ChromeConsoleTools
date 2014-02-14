@@ -3,10 +3,6 @@ var fns = ['jevi', 'jevi_describe'];
 function jevi_describe(events, type, levels) {
     var table = [], events, l, i;
 
-    if (!levels) {
-        levels = '-';
-    } 
-
     for (var n in events)
             if (events.hasOwnProperty(n) 
                 && (type ? (n == type) : true)) {
