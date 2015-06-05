@@ -1,3 +1,5 @@
 ChromeConsoleTools
 ==================
-```jevi("#element_selector","mouseover");```
+```js
+jevi("#element_selector","mouseover");
+```
